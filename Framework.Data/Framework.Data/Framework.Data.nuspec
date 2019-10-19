@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Framework.Data.BioRad</id>
+    <version>1.0.0</version>
+    <title>Framework.Data</title>
+    <authors>BioRad</authors>
+    <owners>BioRad</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common Data Related Framework Classes</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Data</tags>
+	<dependencies>
+       <group targetFramework="net452">
+        <dependency id="Newtonsoft.Json" version="12.0.2" />
+       </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\Framework.Data.dll" target="lib\net452\Framework.Data.dll" />
+    <file src="bin\Release\Framework.Data.xml" target="lib\net452\Framework.Data.xml" />
+	<file src="readme.txt" target="" />
+  </files>
+</package>
